@@ -1,6 +1,7 @@
 body{
     font-family:Montserrat;
-    background-color:#410847;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(186,70,252,1) 100%);
     color:rgb(248, 239, 239);
 }
 a{
@@ -8,7 +9,7 @@ a{
 }
 
 #uno,#dos,#tres{
-    background-color:rgb(190, 188, 18);
+    background-color:rgb(235, 232, 72);
    color:blueviolet;
     padding: 0.5%;
     width: 100px;
@@ -33,7 +34,7 @@ a{
 
 }
 .menu a:hover{
-    background-color: rgb(190, 188, 18);
+    background-color: rgb(219, 217, 64);
     color:#421747;
     transition: ease-in .4s;
 
@@ -47,7 +48,7 @@ ul.menu a{
     padding: 10px 20px;
 }
   h1 span{
-    color:rgb(190, 188, 18);
+    color:rgb(221, 218, 57);
     
   }
 
@@ -59,10 +60,15 @@ ul.menu a{
   img{
    width: 20%;
    height: 20%;
-   border-radius:50%;
+   border-radius:10%;
    margin-left: 70%;
    }
   
 div.encabezado{
     margin-top: -30%;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
 }
